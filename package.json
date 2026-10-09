@@ -15,6 +15,14 @@
   ],
   "license": "MIT",
   "author": "Svetlozar Argirov <zarrro@gmail.com>",
+  "homepage": "https://github.com/zaro/whisper-multitrack#readme",
+  "bugs": {
+    "url": "https://github.com/zaro/whisper-multitrack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaro/whisper-multitrack.git"
+  },
   "type": "module",
   "bin": {
     "whisper-multitrack": "dist/transcribe.js"
