@@ -1,0 +1,36 @@
+{
+  "name": "whisper-multitrack",
+  "version": "0.1.0",
+  "description": "Transcribe multi-track recordings (e.g. Craig Discord meetings) with whisper.cpp — one speaker per track.",
+  "keywords": [
+    "whisper",
+    "whisper.cpp",
+    "transcription",
+    "transcribe",
+    "multitrack",
+    "craig",
+    "discord",
+    "meeting",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "Svetlozar Argirov <zarrro@gmail.com>",
+  "type": "module",
+  "bin": {
+    "whisper-multitrack": "dist/transcribe.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
