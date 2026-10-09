@@ -1,6 +1,6 @@
 {
   "name": "whisper-multitrack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Transcribe multi-track recordings (e.g. Craig Discord meetings) with whisper.cpp — one speaker per track.",
   "keywords": [
     "whisper",
